@@ -28,7 +28,7 @@ div{
 }
 body{
     background-color:rgba(230, 219, 255, 0.507);
-    background-image:url(/sources/1.png);
+    background-image:url(sources/1.png);
     background-repeat: repeat-x;
     background-size:15%;
     background-position:0 582px;  
