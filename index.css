@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Lobster&display=swap');
+
+div{
+    border: 0.2em solid rgb(65, 48, 105);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 2em; 
+    box-sizing: content-box;
+    width: 425px;
+    height: 680px;
+}
+div:hover{
+    border: 0.2em solid rgb(65, 48, 105);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 2em; 
+    box-sizing: content-box;
+    width: 425px;
+    height: 680px;
+    background-color:rgb(20, 16, 27) ;
+    color: azure;
+}
+
+img{
+width: 6em;
+height: 6em;
+border-radius: 1em;
+}
+
+h3{
+    display: inline-block;
+    font-size: large;
+    vertical-align: top;
+    border: 0px solid rgb(0, 0, 0);
+    padding: 20px 10px;
+
+}
+#schedule{
+    text-align: center;
+    border: 2px solid rgb(65, 48, 105);
+    border-spacing: 0px;
+    width: 100%;
+}
+footer{
+    background-color: rgb(219, 219, 219);
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+}
+#thead-schedule{
+    background-color: rgb(65, 48, 105);
+}
+td {
+    padding: 5px;
+    
+}
+header{
+    color: rgb(15, 9, 31);
+    padding: 0px 20px; 
+    font-size: xx-large;
+    margin-top: -15px;
+    text-align: center;
+} 
+#book-button{
+    width: 250px;
+    height: 100px;
+    margin: 30px 575px;
+    cursor: pointer;
+    padding: 10px;
+    background-color:rgb(84, 55, 131) ;
+    color: aliceblue;
+    border-radius: .3em;
+    border: 2px solid rgb(34, 3, 53);
+    font-size: larger;
+    
+}
+#book-button:hover{
+    background-color: rgb(34, 3, 53);
+    border-color: rgb(67, 36, 71);
+    color: rgb(240, 253, 253);
+}
+#book-label{
+    display:block;
+    text-align: center;
+    font-size: xx-large;
+    padding: 40px 0px 0px;
+    color: rgb(39, 28, 66);
+ }
+a{
+    padding: 10px 120px;
+    text-decoration-line: none;
+    color:rgb(255, 255, 255) ;
+    font-size: xx-large;
+
+}
+a:hover{
+    padding: 0px 120px;
+    text-decoration-line: none;
+    color:rgb(255, 255, 255) ;
+    font-size: xx-large;
+    background-color:rgb(20, 16, 27) ;
+}
+
+nav{
+    border: 0.2em solid rgb(35, 19, 75);
+    background-color: rgb(65, 48, 105);
+}
+
+video{
+    justify-items: center;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-top: 2.5%;
+    width: 50%;
+    display: inline-block;
+
+}
+body{
+    font-family: "Dangrek", sans-serif;
+    background-color:rgba(230, 219, 255, 0.507);
+}

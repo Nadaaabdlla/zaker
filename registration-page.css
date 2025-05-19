@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Lobster&display=swap');
+input{
+    margin : 10px;
+    text-align : center;
+}
+div{
+    margin: -50px 450px;
+    border: 5px solid rgb(65, 48, 105);
+    text-align: center;
+    width: 550px;
+    height: 550px;
+}
+#submit{
+    background-color: rgb(84, 55, 131);
+    border-radius: 0.3em;
+    border-color: rgb(67, 36, 71);
+    color: rgb(240, 253, 253);
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    width: 80px;
+    height: 50px;
+}
+#submit:hover{
+    background-color: rgb(34, 3, 53);
+    border-color: rgb(67, 36, 71);
+    color: rgb(240, 253, 253);
+}
+body{
+    background-color:rgba(230, 219, 255, 0.507);
+    background-image:url(/sources/1.png);
+    background-repeat: repeat-x;
+    background-size:15%;
+    background-position:0 582px;  
+}
+header{
+    font-family: "Dangrek", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px; 
+    font-size: x-large;
+    margin-top: -35px;
+    color: rgb(15, 9, 31);
+  }
+  

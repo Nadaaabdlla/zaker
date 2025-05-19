@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaker</title>
+    <link rel="stylesheet" href="/registration-page.css">
+</head>
+<body>
+    <header>
+        <h1>Zaker</h1>
+    </header>
+    <div>
+      <h1>Sign up!</h1>
+       <form action="/student-page.html">
+          <label>Full Name:</label>
+          <input type="text" name="Full Name" required><br>
+          <label>Email Address:</label>
+          <input type="email" name="email" required placeholder="example@gmail.com"><br>
+          <label>password:</label>
+          <input type="password" name="password" required><br>
+          <label>Phone Number:</label>
+          <input type="tel" name="Phone Number" pattern="[0-9]{11}" required><br>
+          <label>Date of Birth:</label>
+          <input type="date" name="Date of Birth"><br>
+          <p style="display: inline-block;">Choose a Session:</p>
+          <input type="radio" name="Choosed Session" required>
+          <label>Beginner</label>
+          <input type="radio" name="Choosed Session" required>
+          <label>Intermediate</label>
+          <input type="radio" name="Choosed Session" required> 
+          <label>Advanced</label><br><br>
+          <p style="display: inline-block;">Additional Preferencese:</p>
+          <input type="checkbox" name="Additional Preferences"> 
+          <label>Lunch</label>
+          <input type="checkbox" name="Additional Preferences"> 
+          <label>T-shirt</label>
+          <input type="checkbox" name="Additional Preferences">
+          <label>Workshop Materials</label> 
+          <label>Preferred Time:</label>
+          <select name="Preferred-Time" required style="height: 25px; width: 100px;">
+                  <option>Morning</option>
+                  <option>Afternoon</option>
+                  <option>Evening</option>
+          </select>
+          <br><br>
+          <input id="submit" type="submit"  value="sing up">
+        </form>
+    </div>
+</body>
+</html>
